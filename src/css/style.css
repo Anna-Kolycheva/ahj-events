@@ -1,0 +1,38 @@
+body {
+    color: #999;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-left: auto;
+	margin-right: auto;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(100, 100, 100);
+}
+
+.cell {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background: rgb(252, 220, 41);
+    border-radius: 15%;
+}
+
+.active {
+    background-color: rgb(255, 153, 1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.display_none {
+    display: none;
+}
